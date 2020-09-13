@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 300;
+}
+* {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+header i {
+  font-size: 26px;
+  padding: 4px 12px;
+  color: #506690;
+}
+
+header .links-container {
+  display: none;
+  border: 1px solid transparent;
+}
+
+header button {
+  display: none;
+}
+
+.link-container {
+  display: flex;
+}
+
+.link-container li {
+  margin-right: 15px;
+}
+
+@media only screen and(min-width: 990px) {
+  header .fas {
+    display: none;
+  }
+  header .links-container {
+    display: flex;
+  }
+  header button {
+    display: block;
+  }
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  color: #506690;
+}
+button {
+  box-sizing: border-box;
+  margin: auto;
+  outline-color: white;
+  right: 400px;
+}
+span {
+  color: white;
+}
+.box {
+  width: 300px;
+  height: 300px;
+}
+.box {
+  justify-content: center;
+  display: grid;
+  border-spacing: 50px;
+  height: 50%;
+}
+.container {
+  size: 300px;
+  padding-left: 200px;
+  background-color: white;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+}
+br {
+  font-size: 5px;
+  color: #506690;
+}
+sp {
+  color: #506690;
+}
+.asdf {
+  margin: 1px;
+}
+
+p {
+  padding-left: 400px;
+  color: #506690;
+}
+<style>
+.container .box {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  width: 10px;
+  height: 10px;
+  margin: 0 auto;
+}
+
+.box:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+</style>
