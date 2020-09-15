@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 300;
+}
+* {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+header i {
+  font-size: 26px;
+  padding: 4px 12px;
+  color: #506690;
+}
+
+header .links-container {
+  display: none;
+  border: 1px solid transparent;
+}
+
+header button {
+  display: none;
+}
+
+.link-container {
+  display: flex;
+}
+
+.link-container li {
+  margin-right: 15px;
+}
+.box {
+  background-color: black;
+}
+h1 {
+  font-weight: 400;
+  font-size: 55px;
+  text-align: center;
+}
+h3 {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+.a {
+  padding-left: 850px;
+}
+span {
+  background-color: blue;
+}
